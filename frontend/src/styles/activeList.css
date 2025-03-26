@@ -1,0 +1,7 @@
+.active {
+  @apply relative bg-gray-100;
+}
+
+.active::before {
+  @apply content-[""] h-6 w-1 absolute left-0 bg-blue-500 rounded-xl;
+}
